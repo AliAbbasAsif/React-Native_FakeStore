@@ -10,6 +10,15 @@ const style = StyleSheet.create({
     color: '#91F877',
     fontWeight: '800',
   },
+  scrollview: {
+    height: '65%',
+    width: '100%',
+    marginBottom: 20,
+    // paddingBottom: 20,
+  },
+  contentContainer:{
+    paddingBottom:30,
+  },
   input: {
     height: 40,
     margin: 12,
@@ -26,10 +35,10 @@ const style = StyleSheet.create({
   },
   cards: {
     marginVertical: 8,
-    padding: 19,
+    padding: 10,
     borderColor: 'white',
     borderWidth: 1,
-    width: '70%',
+    width: '45%',
     alignItems: 'center',
     borderRadius: 20,
     backgroundColor: 'white',
